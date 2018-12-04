@@ -81,6 +81,7 @@ h1 {
 
 h2 {
   color:#393939;
+  font-size:24px;
 }
 
 h3, h4, h5, h6 {
@@ -153,6 +154,11 @@ th {
   color:#444;
 }
 
+.avatar {
+  border-radius:50%;
+  width: 200px
+}
+
 img {
   max-width:100%;
 }
@@ -162,6 +168,7 @@ header {
   float:left;
   position:fixed;
   -webkit-font-smoothing:subpixel-antialiased;
+  text-align:center;
 }
 
 header ul {
@@ -200,7 +207,7 @@ header ul a {
 }
 
 header ul a:hover {
-  color:#999;
+  color:#000;
 }
 
 header ul a:active {
